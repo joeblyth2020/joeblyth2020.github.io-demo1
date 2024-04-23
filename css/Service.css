@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    
+    
+    
+}
+.navbar{
+    width: 100%;
+    overflow: hidden;
+    height: 70px;
+    line-height: 70px; 
+    background: rgb(8, 8, 8); 
+    border-bottom: 2px snow;
+}
+
+ 
+ /* this is for ul tag*/
+ .menu{
+     float: right;
+     background:none;
+ }
+ .menu li{
+     float: left;
+     width: 100px;
+     height:70px;
+     line-height: 70px;
+     text-align: center;
+     list-style: none;
+
+ }
+ .menu li a {
+     color: rgb(252, 246, 246);
+     text-decoration-style: none;
+     font-family: calibri;
+     text-transform: capitalize;
+     display: block;
+
+ }
+ .menu li:hover{
+     background:#837f7f;
+ }
+
+ body{
+    background: url("../img/classickitchen.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    
+ }
+ :root{
+     --white:#ffffff;
+ }
+ .container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+ .container .box{
+     position:center;
+     width:420px;
+     background: rgb(248, 245, 245);
+     padding: 45px 60px 90px;
+     box-shadow: 0 15px 45px rgba(0,0,0,.1);
+
+ }
+ .container .box:before{
+     content: '';
+     position: absolute;
+     top: 0;
+     left:0;
+     width: 50%;
+     height:50%;
+
+
+ }
